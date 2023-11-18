@@ -6,13 +6,17 @@ import { useState } from 'react';
 import { RoomDetail } from '../../components/RoomDetail';
 
 export const HomePage = () => {
-  const [roomDetail, setRoomDetail] = useState('Vyberte si pokoj');
+  const [roomDetail, setRoomDetail] = useState(null);
 
   return (
     <>
       <Header />
       <Rooms onRoomChoice={setRoomDetail} />
-      <RoomDetail roomDetail={roomDetail} />
+      {!roomDetail ? (
+        'Vyberte si pokoj'
+      ) : (
+        <RoomDetail roomDetail={roomDetail} />
+      )}
 
       <Footer />
     </>
