@@ -18,7 +18,7 @@ export const Rooms = ({ onRoomChoice }) => {
   console.log('RoomData', rooms);
   return (
     <section className="dark">
-      <div className="container">
+      <div className="container2">
         <h2>Naše pokoje</h2>
         <p>Vyberte si, který z našich pokojů je pro Vás ten pravý.</p>
         <div className="cards-row">

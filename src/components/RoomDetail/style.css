@@ -1,3 +1,8 @@
+.container2 {
+  max-width: 960px;
+  margin: auto;
+}
+
 section.light {
   background-color: #e8e9f3;
 }

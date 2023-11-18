@@ -4,7 +4,7 @@ export const RoomDetail = ({ roomDetail }) => {
   console.log(roomDetail);
   return (
     <section className="light">
-      <div className="container">
+      <div className="container2">
         <h2>{roomDetail.type}</h2>
         <div className="columns-2">
           <div className="column">

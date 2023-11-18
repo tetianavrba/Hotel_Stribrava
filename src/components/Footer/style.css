@@ -33,6 +33,9 @@ section.light {
   background-color: #e8e9f3;
 }
 
+.container2 {
+  max-width: 960px;
+}
 
 .columns-2 {
   display: grid;
