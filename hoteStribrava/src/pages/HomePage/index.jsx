@@ -1,10 +1,7 @@
 import './style.css';
 import { Header } from '../../components/Header';
-<<<<<<< HEAD
-import { Footer } from '../../components/Footer';
-=======
 import { Rooms } from '../../components/HotelovePokoje';
->>>>>>> 36ce19a7bcbe53b0e0c0d2d22577a4ed215a928f
+import { Footer } from '../../components/Footer';
 
 export const HomePage = () => {
   return (
@@ -58,26 +55,6 @@ export const HomePage = () => {
         </div>
       </section>
       <Footer />
-
-<<<<<<< HEAD
-      {/* <section class="dark">
-        <div class="container columns-2">
-          <div class="columns">
-=======
-      <section className="dark">
-        <div className="container columns-2">
-          <div className="columns">
->>>>>>> 36ce19a7bcbe53b0e0c0d2d22577a4ed215a928f
-            <h2>Heading</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
-              mollitia ut pariatur eos error sunt blanditiis repellat similique
-              aperiam temporibus.
-            </p>
-          </div>
-          <img src="img/image1.svg" />
-        </div>
-      </section> */}
     </>
   );
 };
