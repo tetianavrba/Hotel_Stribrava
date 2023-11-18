@@ -1,3 +1,4 @@
+import './style.css';
 export const Footer = () => {
   return (
     <section className="dark">

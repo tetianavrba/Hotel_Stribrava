@@ -1,3 +1,4 @@
+import './style.css';
 export const RoomDetail = ({ roomDetail }) => {
   console.log(roomDetail);
   return (

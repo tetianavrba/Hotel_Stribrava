@@ -1,3 +1,4 @@
+import './style.css';
 export const Room = ({ room, onRoomChoice }) => {
   const handleClick = () => {
     onRoomChoice(room);

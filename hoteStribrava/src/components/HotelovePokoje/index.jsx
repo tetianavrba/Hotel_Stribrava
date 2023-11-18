@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Room } from './Pokoj';
 import { useState } from 'react';
+import './style.css';
 
 export const Rooms = ({ onRoomChoice }) => {
   const [rooms, setRooms] = useState();
@@ -30,28 +31,6 @@ export const Rooms = ({ onRoomChoice }) => {
           ) : (
             <p>Loading</p>
           )}
-          {/* 
-          <div class="card">
-            <img class="card__image" src="img/pokoje/pokoj02.jpg" />
-            <div class="card__title">Card 2</div>
-            <div class="card__body">Laboriosam</div>
-          </div>
-
-          <div class="card">
-            <img class="card__image" src="img/pokoje/pokoj03.jpg" />
-            <div class="card__title">Card 3</div>
-            <div class="card__body">Eveniet officiis</div>
-          </div>
-          <div class="card">
-            <img class="card__image" src="img/pokoje/pokoj04.jpg" />
-            <div class="card__title">Card 3</div>
-            <div class="card__body">Eveniet officiis</div>
-          </div>
-          <div class="card">
-            <img class="card__image" src="img/pokoje/pokoj05.jpg" />
-            <div class="card__title">Card 3</div>
-            <div class="card__body">Eveniet officiis</div>
-          </div> */}
         </div>
       </div>
     </section>
