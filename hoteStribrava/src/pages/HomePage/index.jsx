@@ -1,5 +1,6 @@
 import './style.css';
 import { Header } from '../../components/Header';
+import { Footer } from '../../components/Footer';
 
 export const HomePage = () => {
   return (
@@ -86,8 +87,9 @@ export const HomePage = () => {
           </div>
         </div>
       </section>
+      <Footer />
 
-      <section class="dark">
+      {/* <section class="dark">
         <div class="container columns-2">
           <div class="columns">
             <h2>Heading</h2>
@@ -99,7 +101,7 @@ export const HomePage = () => {
           </div>
           <img src="img/image1.svg" />
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
