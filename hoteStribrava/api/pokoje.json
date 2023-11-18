@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "typevalue": "Úkryt",
+    "price": 450,
+    "currency": "Kč",
+    "unit": "za osobu"
+  },
+  {
+    "id": 1,
+    "typevalue": "Základ",
+    "price": 700,
+    "currency": "Kč",
+    "unit": "za osobu"
+  },
+  {
+    "id": 2,
+    "typevalue": "Klasic",
+    "price": 1200,
+    "currency": "Kč",
+    "unit": "za osobu"
+  },
+  {
+    "id": 3,
+    "typevalue": "Komfort",
+    "price": 2500,
+    "currency": "Kč",
+    "unit": "za osobu"
+  },
+  {
+    "id": 4,
+    "typevalue": "Luxus",
+    "price": 8000,
+    "currency": "Kč",
+    "unit": "za osobu"
+  }
+]
