@@ -5,7 +5,7 @@ export const Header = () => {
       {' '}
       <div className="banner__stripe">
         {' '}
-        <div className="container">
+        <div className="container2">
           {' '}
           <h1>Hotel Stříbrava</h1>{' '}
           <p className="lead">
