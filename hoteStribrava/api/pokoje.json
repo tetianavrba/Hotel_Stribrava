@@ -4,34 +4,39 @@
     "typevalue": "Úkryt",
     "price": 450,
     "currency": "Kč",
-    "unit": "za osobu"
+    "unit": "za osobu",
+    "description": "Strohý avšak pohodlný pokoj ideální pro hosty, kteří chtějí maximálně ušetřit a hledají cenově dostupné ubytování bez ztráty základního komfortu. Vhodné pro všechny, kdo chtějí v našem hotelu rychle přečkat nepřízeň počasí a vydat se rychle zase na cestu ať už pěší nebo po řece."
   },
   {
     "id": 1,
     "typevalue": "Základ",
     "price": 700,
     "currency": "Kč",
-    "unit": "za osobu"
+    "unit": "za osobu",
+    "description": "Strohý avšak pohodlný pokoj ideální pro hosty, kteří chtějí maximálně ušetřit a hledají cenově dostupné ubytování bez ztráty základního komfortu. Vhodné pro všechny, kdo chtějí v našem hotelu rychle přečkat nepřízeň počasí a vydat se rychle zase na cestu ať už pěší nebo po řece."
   },
   {
     "id": 2,
     "typevalue": "Klasic",
     "price": 1200,
     "currency": "Kč",
-    "unit": "za osobu"
+    "unit": "za osobu",
+    "description": "Moderní elegance s výhledem na řeku. Náš pokoj Klasik je ideální pro ty, kteří si přejí stylové ubytování. Všechny pokoje mají novou parketovou podlahu a velké okno s výhledem na malebnou řeku a kammenný most."
   },
   {
     "id": 3,
     "typevalue": "Komfort",
     "price": 2500,
     "currency": "Kč",
-    "unit": "za osobu"
+    "unit": "za osobu",
+    "description": "Pro hosty, kteří si chtějí dopřát vyšší úroveň ubytování, je tu pokoj Komfort. S moderním nábytkem a útulným designem nabízí relaxační atmosféru na břehu řeky. Všechny pokoje mají příjemný koberec a velká okna, skrze které můžete pozorovat romantické západy slunce nad řekou."
   },
   {
     "id": 4,
     "typevalue": "Luxus",
     "price": 8000,
     "currency": "Kč",
-    "unit": "za osobu"
+    "unit": "za osobu",
+    "description": "Pro nejnáročnější hosty máme připravený prostorný pokoj s exkluzivním vybavením v prvorepublikovém stylu. Tento pokoj má nejlepší výhled na řeku Stříbravu i na okolní krajinu. Tento pokoj skvělou volbou pro ty, kteří hledají vrcholný komfort a luxusní zážitek během svého pobytu v našem zrekonstruovaném hotelu."
   }
 ]
