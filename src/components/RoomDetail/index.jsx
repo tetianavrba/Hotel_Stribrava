@@ -2,6 +2,7 @@ import './style.css';
 import { ReservationForm } from './ReservationForm';
 export const RoomDetail = ({ roomDetail }) => {
   console.log(roomDetail);
+
   return (
     <section className="light">
       <div className="container2">
@@ -11,7 +12,7 @@ export const RoomDetail = ({ roomDetail }) => {
             <img src={`img/pokoje/pokoj0${roomDetail.id + 1}.jpg`} />
             <p>{roomDetail.description}</p>
           </div>
-          <ReservationForm />
+          <ReservationForm price={roomDetail.price} />
         </div>
       </div>
     </section>

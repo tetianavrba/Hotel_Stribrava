@@ -1,7 +1,23 @@
 import './style.css';
-export const ReservationForm = () => {
+import { useState } from 'react';
+export const ReservationForm = ({ price }) => {
+  const [stayPrice, setStayPrice] = useState('');
+  const [dateFrom, setdateFrom] = useState('');
+  const [dateTo, setdateTo] = useState('');
+  const [numberOfGuests, setNumberOfGuests] = useState(0);
+  const [board, setBoard] = useState('');
+  const [pet, setPet] = useState(false);
+  const [kiddyBed, setKiddyBed] = useState(false);
+  const [wheelchair, setWheelChair] = useState(false);
+  const [email, setEmail] = useState('');
+  const [telefon, setTelefon] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log();
+  };
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div className="form-fields">
         <label htmlFor="dateFrom" className="field-label">
           Od:
@@ -40,10 +56,20 @@ export const ReservationForm = () => {
         </label>
         <input id="kiddyBed" className="field-input" type="checkbox" />
         <label htmlFor="wheelchair" className="field-label">
-          Bezbariérový přístup
+          Bezbariérový přístup{' '}
         </label>
         <input id="wheelchair" className="field-input" type="checkbox" />
+
+        <label htmlFor="emailOfGuests" className="field-label">
+          E-mail:
+        </label>
+        <input id="emailOfGuests" className="field-input" type="email" />
+        <label htmlFor="telefonOfGuests" className="field-label">
+          Telefon:
+        </label>
+        <input id="telefonOfGuests" className="field-input" type="tel" />
       </div>
+      <h3>Celková cena za pobyt: {stayPrice}</h3>
       <button className="wide">Submit</button>
     </form>
   );
