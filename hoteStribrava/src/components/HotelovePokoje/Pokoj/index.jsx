@@ -1,3 +1,4 @@
+import './style.css';
 export const Room = ({ room }) => {
   const { id, type, price, currency, unit } = room;
   console.log('Room', room);

@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Room } from './Pokoj';
 import { useState } from 'react';
+import './style.css';
 
 export const Rooms = () => {
   const [rooms, setRooms] = useState();
@@ -23,7 +24,7 @@ export const Rooms = () => {
         <div className="cards-row">
           {rooms ? (
             rooms.map((room) => {
-              return <Room key={room} room={room} />;
+              return <Room key={room.id} room={room} />;
             })
           ) : (
             <p>Loading</p>
