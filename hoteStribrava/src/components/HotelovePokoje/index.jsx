@@ -23,7 +23,7 @@ export const Rooms = () => {
         <div className="cards-row">
           {rooms ? (
             rooms.map((room) => {
-              return <Room key={room.id} room={room} />;
+              return <Room key={room} room={room} />;
             })
           ) : (
             <p>Loading</p>
