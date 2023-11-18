@@ -1,9 +1,14 @@
-export const Room = () => {
+export const Room = ({ room }) => {
+  const { id, type, price, currency, unit } = room;
+  console.log('Room', room);
   return (
-    <div class="card">
-      <img class="card__image" src="img/pokoje/pokoj01.jpg" />
-      <div class="card__title">Card 1</div>
-      <div class="card__body">Sunt natus</div>
+    <div className="card">
+      <img className="card__image" src={`img/pokoje/pokoj0${id + 1}.jpg`} />
+      <div className="card__title">{type}</div>
+      <div className="card__body">
+        {price}
+        {currency} {unit}
+      </div>
     </div>
   );
 };

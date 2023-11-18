@@ -111,15 +111,15 @@ img {
   }
 }
 
-.cards-row {
+/* .cards-row {
   display: flex;
   gap: 1rem;
   overflow-x: auto;
   overflow-y: hidden;
   padding: 1rem 0;
-}
+} */
 
-.card {
+/* .card {
   flex: 1 0 8rem;
   color: #aaa;
   transition: transform 0.2s;
@@ -147,7 +147,7 @@ img {
 
 .card__body {
   padding: 0 0.5rem;
-}
+} */
 
 .columns-2 {
   display: grid;
