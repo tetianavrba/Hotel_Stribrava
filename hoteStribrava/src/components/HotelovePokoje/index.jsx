@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Room } from './Pokoj';
 import { useState } from 'react';
 
-export const Rooms = () => {
+export const Rooms = ({ onRoomChoice }) => {
   const [rooms, setRooms] = useState();
 
   useEffect(() => {
@@ -23,7 +23,9 @@ export const Rooms = () => {
         <div className="cards-row">
           {rooms ? (
             rooms.map((room) => {
-              return <Room key={room.id} room={room} />;
+              return (
+                <Room key={room.id} room={room} onRoomChoice={onRoomChoice} />
+              );
             })
           ) : (
             <p>Loading</p>
