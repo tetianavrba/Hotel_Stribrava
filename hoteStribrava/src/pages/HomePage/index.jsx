@@ -1,51 +1,18 @@
 import './style.css';
 import { Header } from '../../components/Header';
+import { Rooms } from '../../components/HotelovePokoje';
 
 export const HomePage = () => {
   return (
     <>
       <Header />
-      <section class="dark">
-        <div class="container">
+      <Rooms />
+
+      <section className="light">
+        <div className="container">
           <h2>Heading</h2>
-          <p>Quas odio quidem, enim nihil unde quia temporibus vitae in ab.</p>
-          <div class="cards-row">
-            <div class="card">
-              <img class="card__image" src="img/pokoje/pokoj01.jpg" />
-              <div class="card__title">Card 1</div>
-              <div class="card__body">Sunt natus</div>
-            </div>
-
-            <div class="card">
-              <img class="card__image" src="img/pokoje/pokoj02.jpg" />
-              <div class="card__title">Card 2</div>
-              <div class="card__body">Laboriosam</div>
-            </div>
-
-            <div class="card">
-              <img class="card__image" src="img/pokoje/pokoj03.jpg" />
-              <div class="card__title">Card 3</div>
-              <div class="card__body">Eveniet officiis</div>
-            </div>
-            <div class="card">
-              <img class="card__image" src="img/pokoje/pokoj04.jpg" />
-              <div class="card__title">Card 3</div>
-              <div class="card__body">Eveniet officiis</div>
-            </div>
-            <div class="card">
-              <img class="card__image" src="img/pokoje/pokoj05.jpg" />
-              <div class="card__title">Card 3</div>
-              <div class="card__body">Eveniet officiis</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="light">
-        <div class="container">
-          <h2>Heading</h2>
-          <div class="columns-2">
-            <div class="column">
+          <div className="columns-2">
+            <div className="column">
               <img src="img/image1.svg" />
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
@@ -55,41 +22,41 @@ export const HomePage = () => {
               </p>
             </div>
             <form>
-              <div class="form-fields">
-                <label htmlFor="field1" class="field-label">
+              <div className="form-fields">
+                <label htmlFor="field1" className="field-label">
                   Field 1:
                 </label>
-                <input id="field1" class="field-input" type="text" />
+                <input id="field1" className="field-input" type="text" />
 
-                <label htmlFor="field2" class="field-label">
+                <label htmlFor="field2" className="field-label">
                   Field 2:
                 </label>
-                <input id="field2" class="field-input" type="text" />
+                <input id="field2" className="field-input" type="text" />
 
-                <label htmlFor="select" class="field-label">
+                <label htmlFor="select" className="field-label">
                   Select:
                 </label>
-                <select id="select" class="field-input">
+                <select id="select" className="field-input">
                   <option>Option 1</option>
                   <option>Option 2</option>
                   <option>Option 3</option>
                   <option>Option 4</option>
                 </select>
 
-                <label htmlFor="check1" class="field-label">
+                <label htmlFor="check1" className="field-label">
                   Checkbox 1:
                 </label>
-                <input id="check1" class="field-input" type="checkbox" />
+                <input id="check1" className="field-input" type="checkbox" />
               </div>
-              <button class="wide">Submit</button>
+              <button className="wide">Submit</button>
             </form>
           </div>
         </div>
       </section>
 
-      <section class="dark">
-        <div class="container columns-2">
-          <div class="columns">
+      <section className="dark">
+        <div className="container columns-2">
+          <div className="columns">
             <h2>Heading</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
